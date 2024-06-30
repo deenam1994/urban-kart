@@ -1,6 +1,11 @@
 import './App.css';
 import CategoryItem from './components/category-item/category-item.component';
 import './categories.styles.scss';
+import hats from './assets/images/hats.png';
+import jackets from './assets/images/jackets.png';
+import sneakers from './assets/images/sneakers.png';
+import womens from './assets/images/womens.png';
+import mens from './assets/images/men.png';
 
 const App = () => {
 
@@ -8,27 +13,27 @@ const App = () => {
     {
       "id": 1,
       "title": "Hats",
-      "imageUrl": "https://i.ibb.co/cvpntL1/hats.png"
+      "imageUrl": hats
     },
     {
       "id": 2,
       "title": "Jackets",
-      "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png"
+      "imageUrl": jackets
     },
     {
       "id": 3,
       "title": "Sneakers",
-      "imageUrl": "https://i.ibb.co/0jqHpnp/sneakers.png"
+      "imageUrl": sneakers
     },
     {
       "id": 4,
       "title": "Womens",
-      "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+      "imageUrl": womens
     },
     {
       "id": 5,
       "title": "Mens",
-      "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
+      "imageUrl": mens
     }
   ];
 
